@@ -1,0 +1,100 @@
+[gd_scene load_steps=44 format=2]
+
+[ext_resource path="res://Assets/Fonts/RobotoYellowFont100p.tres" type="BitmapFont" id=1]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0000.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0001.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0002.png" type="Texture" id=4]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0003.png" type="Texture" id=5]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0004.png" type="Texture" id=6]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0005.png" type="Texture" id=7]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0006.png" type="Texture" id=8]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0007.png" type="Texture" id=9]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0008.png" type="Texture" id=10]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0009.png" type="Texture" id=11]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0010.png" type="Texture" id=12]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0011.png" type="Texture" id=13]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0012.png" type="Texture" id=14]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0013.png" type="Texture" id=15]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0014.png" type="Texture" id=16]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0015.png" type="Texture" id=17]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0016.png" type="Texture" id=18]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0017.png" type="Texture" id=19]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0018.png" type="Texture" id=20]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0019.png" type="Texture" id=21]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0020.png" type="Texture" id=22]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0021.png" type="Texture" id=23]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0022.png" type="Texture" id=24]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0023.png" type="Texture" id=25]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0024.png" type="Texture" id=26]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0025.png" type="Texture" id=27]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0026.png" type="Texture" id=28]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0027.png" type="Texture" id=29]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0028.png" type="Texture" id=30]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0029.png" type="Texture" id=31]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0030.png" type="Texture" id=32]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0031.png" type="Texture" id=33]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0032.png" type="Texture" id=34]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0033.png" type="Texture" id=35]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0034.png" type="Texture" id=36]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0035.png" type="Texture" id=37]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0036.png" type="Texture" id=38]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0037.png" type="Texture" id=39]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0038.png" type="Texture" id=40]
+[ext_resource path="res://Assets/Character/Idle/CharacterIdleVarB0039.png" type="Texture" id=41]
+[ext_resource path="res://Assets/Animations/Character/CharacterIdle.tres" type="Animation" id=42]
+
+[sub_resource type="SpriteFrames" id=1]
+
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ) ],
+"loop": true,
+"name": "CharIdle",
+"speed": 30.0
+} ]
+
+[node name="Game" type="Node2D" index="0"]
+
+[node name="Label" type="Label" parent="." index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 586.0
+margin_top = 51.0
+margin_right = 866.0
+margin_bottom = 171.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 1 )
+text = "5000"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Character" type="Node2D" parent="." index="1"]
+
+position = Vector2( -28.6395, -286.395 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Character" index="0"]
+
+position = Vector2( 988.687, 406.259 )
+frames = SubResource( 1 )
+animation = "CharIdle"
+frame = 36
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Character" index="1"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/CharacterIdle = ExtResource( 42 )
+blend_times = [  ]
+
+
